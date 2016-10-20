@@ -27,8 +27,7 @@
  * ----------------------------------------------- END OF LICENSE ------------------------------------------
  */
 package com.microsoft.tfs.demo;
-/**
-testing */
+
 import com.microsoft.tfs.demo.ImageService;
 import org.junit.Assert;
 import org.junit.Before;
