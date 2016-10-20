@@ -86,7 +86,7 @@ public class ImageService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("{name}")
-    public Image getByName(@PathParam("name") final String name) {
+    public Image getByName(@PathParam("Image name") final String name) {
         final String imageSrc = String.format("/%s.png", name.toLowerCase());
         for (Image i : planetaries) {
             if (i.getSrc().endsWith(imageSrc)) {
